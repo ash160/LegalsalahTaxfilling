@@ -93,7 +93,7 @@ def salary(request):
         profit=profit,allowances=allowances,balance=balance,std_deduciton=std_deduciton,
         professional_tax=professional_tax,income_chargeable=income_chargeable,tds=tds,tan=tan)
         sal.save()
-    return render(request,'OtherIncome.html')
+    return render(request,'Otherincome.html')
 
 def uploadd(request):  
     if request.method == 'POST':  
